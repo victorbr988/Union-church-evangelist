@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.box-shadow {
+  box-shadow: -30px 30px #e2e8f0;
+}
+
+.backgroundImage {
+  background-image: url('./assets/group-peoples.jpeg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.backgroundImageSecond {
+  background-image: url('./assets/peoples-group-savana.jpeg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
