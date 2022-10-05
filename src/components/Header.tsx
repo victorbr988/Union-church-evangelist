@@ -15,7 +15,7 @@ export const Header: React.FC<IHeaderProps> = ({setIsOpen, isOpen}: IHeaderProps
         />
         <section className='flex items-center gap-5'> 
           <img src={logo} className='w-12 h-12' alt="Logo" />
-          <h1 className='text-lg text-gray-600'>Igreja adventista do sétimo dia</h1>
+          <h1 className='md:text-lg text-md text-gray-600'>Igreja adventista do sétimo dia</h1>
         </section>
       </header>
     </div>
