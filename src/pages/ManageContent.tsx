@@ -9,7 +9,7 @@ export const ManageContent: React.FC = () => {
   const [isOpenmodalVideo, OpenAddVideoModal] = useState(false)
   return (
     <div className="min-h-screen backgroundImageSecond">
-      <section className="flex gap-2 justify-center flex-wrap sm:my-0 my-10 items-center h-40">
+      <section className="flex gap-2 justify-center flex-wrap sm:my-0 pt-40 items-center h-40">
         <ButtonOpenModal
           title="Adicionar evento"
           isOpen={isOpenmodalEvent}

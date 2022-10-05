@@ -6,8 +6,8 @@ export const Sidebar: React.FC = () => {
   const {pathname} = useLocation();
   return (
   <>
-    <section className="fixed z-50 h-screen bg-gray-100 w-64">
-      <nav className=' flex flex-col gap-4'>
+    <section className="fixed z-50 top-16 h-full bg-gray-100 w-64">
+      <nav className='flex flex-col gap-4'>
         <section className={`p-2 hover:bg-gray-200 ${pathname === '/' && 'bg-gray-200'}`}>
           <NavLink to="/" className='text-gray-600 hover:bg-gray-200 p-2 flex items-center gap-2'><FiHome className='text-xl text-blue-700' />Home</NavLink>
         </section>
